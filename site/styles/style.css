@@ -1,0 +1,57 @@
+body {
+    margin:0;
+  }
+  
+header {
+  margin-top: 70px;
+}
+
+#head a {
+  color: white;
+}
+
+label {
+  text-align: center;
+}
+#menu ul {
+  margin: 0;
+  background-color: #3385ff;
+  list-style: none;
+}
+
+#menu ul.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(#01579b,#0091ea) no-repeat;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul{
+  box-shadow:  0px 5px 5px black;
+}
+#menu ul li a {
+  padding: 15px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+#menu  ul li a:hover {
+  color: black;
+  background: linear-gradient(rgb(248, 152, 8), rgb(175, 238, 3)) no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px 10px;
+}
+
+#menu ul {
+  padding-left: 10px;
+}
+
+.align-center{
+  text-align: center;
+  margin-bottom: 0;
+}
